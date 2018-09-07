@@ -33,6 +33,22 @@ namespace WordCounter.Models
       string[] newArray = _sentence.Split(' ');
       return newArray;
     }
-
+    public int Compare()
+    {
+      string [] newArray = this.SplitSentence();
+      int Count = 0;
+      for(i = 0 ; i < newArray.Length; i++)
+      {
+        if(newArray[i] == _word)
+        {
+          Count++
+        }
+        else
+        {
+          return Count
+        }
+      }
+      return Count
+    }
   }
 }
