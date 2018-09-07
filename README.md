@@ -1,4 +1,4 @@
-# _Beep Boop Translator_
+# _Word Counter_
 
 #### _Friday Independent Project for Epicdous, 9.7.2018_
 
@@ -23,7 +23,7 @@ _.Your mission is to create a program that checks how frequently a word appears 
 | :-------------     | :------------- | :------------- |
 | **The program will identify a single string** | Input: "dog" | Output: "dog" |
 | **The program will identify a sentence of strings** | Input: "My dog is the best dog" | Output: "My dog is the best dog"|
-| ** The program will return the amount of times the word is repeated in the sentence ** | Input: "My dog is the best dog" | Output: "2" |
+| **The program will return the amount of times the word is repeated in the sentence** | Input: "My dog is the best dog" | Output: "2" |
 
 ## Known Bugs
 
