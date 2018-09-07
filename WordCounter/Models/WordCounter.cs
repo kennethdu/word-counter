@@ -1,12 +1,11 @@
-using System;
 using System.Collections.Generic;
+using System;
 
-namespace WordCounter
+namespace WordCounter.Models
 {
-  public class Word
+  public class RepeatCounter
   {
     private string _word;
-
     public Word (string word)
     {
       _word = word;
@@ -19,6 +18,5 @@ namespace WordCounter
     {
       return _word;
     }
-
   }
 }

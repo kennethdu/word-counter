@@ -6,10 +6,10 @@ using System;
 namespace WordCounter.Tests
 {
   [TestClass]
-  public class Word()
+  public class RepeatCounter
   {
     [TestMethod]
-    publid void GetWord_ReturnUserWord_String()
+    public void GetWord_ReturnUserWord_String()
     {
       //Arrange
       string word = "hello";
