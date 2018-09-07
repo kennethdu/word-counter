@@ -7,6 +7,7 @@ namespace WordCounter.Models
   {
     private string _word;
     private string _sentence;
+    private int _count = 0;
     public RepeatCounter (string word, string sentence)
     {
       _word = word;
@@ -35,20 +36,19 @@ namespace WordCounter.Models
     }
     public int Compare()
     {
-      string [] newArray = this.SplitSentence();
-      int Count = 0;
-      for(i = 0 ; i < newArray.Length; i++)
+      string [] newArray = SplitSentence();
+      for(int i = 0 ; i < newArray.Length - 1; i++)
       {
         if(newArray[i] == _word)
         {
-          Count++
+          _count++;
         }
         else
         {
-          return Count
+          return _count;
         }
       }
-      return Count
+      return _count;
     }
   }
 }

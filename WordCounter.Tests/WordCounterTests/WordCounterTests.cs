@@ -38,13 +38,16 @@ namespace WordCounter.Tests
       //Assert
       Assert.AreEqual("my", splitSentence[0]);
     }
-    // [TestMethod]
-    // publid void Compare_CheckIfWordAppearsInSentence_bool()
-    // {
-    //   //Arrange
-    //   //Act
-    //   //Assert
-    // }
+    [TestMethod]
+    public void Compare_CheckIfWordAppearsInSentence_bool()
+    {
+      //Arrange
+      RepeatCounter userInput = new RepeatCounter("dog", "my dog is the best dog");
+      //Act
+      int wordCount = userInput.Compare();
+      //Assert
+      Assert.AreEqual(2, wordCount);
+    }
     // [TestMethod]
     // publid void Count_Add1toWordCount_Int()
     // {
