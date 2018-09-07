@@ -6,33 +6,26 @@ using System;
 namespace WordCounter.Tests
 {
   [TestClass]
-  public class RepeatCounter
+  public class RepeatCounterTest
   {
     [TestMethod]
     public void GetWord_ReturnUserWord_String()
     {
       //Arrange
       string word = "hello";
-      Word newWord = new Word(word);
+      RepeatCounter newWord = new RepeatCounter(word);
       //Act
       string result = newWord.GetWord();
       //Assert
       Assert.AreEqual("hello", result);
     }
-    // [TestMethod]
-    // publid void GetSentence_ReturnUserSentence_String()
-    // {
-    //   //Arrange
-    //   //Act
-    //   //Assert
-    // }
-    // [TestMethod]
-    // publid void SplitSentence_SplitUserSentence_String()
-    // {
-    //   //Arrange
-    //   //Act
-    //   //Assert
-    // }
+    [TestMethod]
+    publid void SplitSentence_SplitUserSentence_String()
+    {
+      //Arrange
+      //Act
+      //Assert
+    }
     // [TestMethod]
     // publid void Compare_CheckIfWordAppearsInSentence_bool()
     // {

@@ -3,3 +3,12 @@ C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\net
 C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.runtimeconfig.dev.json
 C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.AssemblyInfo.cs
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.dll
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.pdb
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.dll
+C:\Users\Kenneth Du\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.pdb

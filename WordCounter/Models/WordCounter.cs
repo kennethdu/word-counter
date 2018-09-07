@@ -6,7 +6,7 @@ namespace WordCounter.Models
   public class RepeatCounter
   {
     private string _word;
-    public Word (string word)
+    public RepeatCounter (string word)
     {
       _word = word;
     }
