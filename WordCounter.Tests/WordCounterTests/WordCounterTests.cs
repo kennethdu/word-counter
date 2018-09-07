@@ -34,7 +34,7 @@ namespace WordCounter.Tests
       //Arrange
       RepeatCounter userInput = new RepeatCounter("dog", "my dog is the best dog");
       //Act
-      string[] sentence = userInput.SplitSentence();
+      string[] splitSentence = userInput.SplitSentence();
       //Assert
       Assert.AreEqual("my", splitSentence[0]);
     }
