@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System;
 
-namespace Parcels.Models
+namespace WordCounter.Models
 {
     public class Parcel
     {

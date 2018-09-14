@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using Parcels.Models;
+using WordCounter.Models;
 using System.Collections.Generic;
 
-namespace Parcels.Controllers
+namespace WordCounter.Controllers
 {
     public class ParcelController : Controller
     {

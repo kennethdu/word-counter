@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using LeapYears.Models;
+using WordCounter.Models;
 using System.Collections.Generic;
 
-namespace LeapYear.Controllers
+namespace WordCounter.Controllers
 {
     public class LeapYearController : Controller
     {
@@ -10,22 +10,14 @@ namespace LeapYear.Controllers
         public ActionResult Index()
         {
             List<LeapYearChecker> allYears = LeapYearChecker.GetAll();
-            return View();
+            return View(allYears);
         }
         [HttpGet("/years/new")]
         public ActionResult Year()
         {
-            return View();
+            LeapYear checkedYear = new LeapYear(Request.Form["new-year"]);
+            return View(checkedYear);
         }
-        // [HttpPost("/years")]
-        // public ActionResult Create()
-        // {
-        //     LeapYearChecker userYear = new LeapYearChecker(Request.Form["new-year"]);
-        //     userYear.IsLeapYear();
-        //     userYear.Save();
-        //     List<LeapYearChecker> allYears = LeapYearChecker.GetAll();
-        //     return View("Index", allYears);
-        // }
     }
 
 }
