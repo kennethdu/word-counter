@@ -1,0 +1,12 @@
+<h1>Parcels</h1>
+  <h1>Parcel Calculator</h1>
+  @foreach(var parcel in Model)
+  {
+    <p>The cost to ship your parcel will be: $ @parcel.costToShip()</p>
+    <p>The volume(@parcel.length , @parcel.width , @parcel.heighth) of your parcel is: @parcel.Volume()</p>
+    <p>The weight of your parcel is: @parcel.weight</p>
+  }
+
+<a href="/parcels/new">Add a new parcel.</a>
+<a href="/">Home</a>
+
