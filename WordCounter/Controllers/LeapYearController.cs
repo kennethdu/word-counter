@@ -12,10 +12,10 @@ namespace WordCounter.Controllers
             List<LeapYearChecker> allYears = LeapYearChecker.GetAll();
             return View(allYears);
         }
-        [HttpGet("/years/new")]
+        [HttpPost("/years/new")]
         public ActionResult Year()
         {
-            LeapYear checkedYear = new LeapYear(Request.Form["new-year"]);
+            LeapYearChecker checkedYear = new LeapYearChecker(Request.Form["new-year"]);
             return View(checkedYear);
         }
     }
