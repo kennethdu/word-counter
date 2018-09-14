@@ -5,34 +5,41 @@ namespace LeapYears.Models
 {
     public class LeapYearChecker
     {
-        public int year {get; set;}
-        private static List<LeapYearChecker> _year = new List<LeapYearChecker> { };
+        private int _year;
+        private string _results;
+        private static List<LeapYearChecker> _instances = new List<LeapYearChecker> { };
 
         public LeapYearChecker(string newYear)
         {
-            year = int.Parse(newYear);
+            _year = int.Parse(newYear);
+            _results = IsLeapYear(_year);
+            _instances.Add(this);
         }
-        public static List<LeapYearChecker> GetAll()
+        public int GetYear()
         {
             return _year;
         }
-        public void Save()
+        public string GetResults()
         {
-            _year.Add(this);
+            return _results;
         }
-        public bool IsLeapYear(int year)
+        public static List<LeapYearChecker> GetAll()
+        {
+            return _instances;
+        }
+        public string IsLeapYear(int year)
         {
             if (year % 400 == 0)
             {
-                return true;
+                return _year + "is a leap year";
             }
             else if (year % 100 == 0)
             {
-                return false;
+                return _year + "is not a leap year";
             }
             else
             {
-                return year % 4 == 0;
+                return _year + " is a leap year";
             }
         }
     }
