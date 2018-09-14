@@ -1,0 +1,8 @@
+<h1>Word Counter</h1>
+  @foreach(var word in Model)
+  {
+    <p>The word you were searching for: "@word.GetWord()" appears this many times in: "@word.GetSentence()" : @word.CountWord()</p>
+  }
+
+<a href="/words/new">Add a new item.</a>
+<a href="/">Home</a>
